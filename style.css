@@ -1,0 +1,131 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.projet{
+width: 80%;
+margin: auto;
+
+} 
+#header{
+    text-align: center;
+}
+input{
+    width: 100%;
+    height: 30px;
+    margin: 5px;
+    background-color: darkgrey;
+    border-radius: 6px;
+    border: none;
+    color: aliceblue;
+    cursor: pointer;
+    
+}
+input:focus{
+background-color: black;
+transform: scale(1.1);
+}
+input::placeholder{
+    padding: 5px;
+    color: white;
+}
+
+.total input{
+width: 20%;
+
+}
+.total #total{
+    width: 5%;
+    height: 30px;
+    background-color: red;
+    color:aliceblue;
+    border-radius: 6px;
+    border: none;
+    margin-left: 10px;
+    
+}
+.total #total::before{
+    content: '';
+
+}
+#delete-all{
+    width: 100%;
+    
+}
+.delete{
+    width: 100%;
+    height:30px ;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0;
+    background-color: darkgrey;
+    margin-bottom: 10px;
+}
+.delete:hover{
+    
+    background-color: blue;
+    color: aliceblue;
+}
+
+
+#create {
+    width: 100%;
+    height:30px ;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0;
+    background-color: darkgrey;
+    
+    
+   
+}
+#create:hover{
+    background-color: blue;
+    color: aliceblue;
+    
+}
+.search .btn-search{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.search .btn-search button{
+    width: 40%;
+    height:30px ;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0;
+    background-color: darkgrey;
+}
+.search .btn-search button:hover{
+    background-color: blue;
+    color: aliceblue;
+}
+table{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    
+}
+#update, #delete{
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: darkgrey;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+#update:hover,#delete:hover{
+    background-color: blue;
+    color: aliceblue;
+}
